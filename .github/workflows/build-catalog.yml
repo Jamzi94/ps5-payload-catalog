@@ -1,1 +1,48 @@
 
+name: Build PS5 payload catalog
+
+on:
+  # Lance manuellement depuis l'onglet Actions
+  workflow_dispatch:
+  # Auto-update : toutes les 6 heures
+  schedule:
+    - cron: "0 */6 * * *"
+  # Reconstruit aussi quand tu modifies la config ou le script
+  push:
+    branches: [main]
+    paths:
+      - "repos.json"
+      - "build.py"
+      - ".github/workflows/build-catalog.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate payloads.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python build.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- payloads.json; then
+            git add payloads.json
+            git commit -m "chore: update payloads.json ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+          else
+            echo "Aucun changement."
+          fi
