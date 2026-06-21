@@ -66,10 +66,10 @@ def releases_for(entry):
         # comportement historique : la 'latest' (ignore les pre-releases)
         return [http_get_json(LATEST.format(owner=owner, repo=repo))]
 
-    # keep > 1 : on prend les N plus recentes (test/pre-releases inclus, drafts exclus)
+    # keep > 1 : on renvoie tous les candidats (drafts exclus), du plus recent au plus ancien.
+    # main() gardera les `keep` premieres releases qui ont REELLEMENT un asset .elf/.bin.
     rels = http_get_json(LIST.format(owner=owner, repo=repo))
-    rels = [r for r in rels if not r.get("draft", False)]
-    return rels[:keep]
+    return [r for r in rels if not r.get("draft", False)]
 
 
 def assets_from(release, exts):
@@ -89,6 +89,7 @@ def main():
     for entry in cfg["repos"]:
         owner, repo = entry["owner"], entry["repo"]
         label = entry.get("label", repo)
+        keep = int(entry.get("keep", 1))
         print(f"-> {owner}/{repo}", flush=True)
 
         try:
@@ -100,12 +101,17 @@ def main():
             print(f"   ! erreur reseau: {e} - ignore", flush=True)
             continue
 
+        kept = 0
         for rel in releases:
+            if kept >= keep:
+                break
             version, is_pre, matched = assets_from(rel, exts)
             if not matched:
-                print(f"   . {version} : aucun asset {exts} - saute", flush=True)
+                if keep > 1:
+                    print(f"   . {version} : aucun asset {exts} - cherche plus loin", flush=True)
                 continue
             tag = f" (pre-release)" if is_pre else ""
+            kept += 1
             for a in matched:
                 items.append({
                     "name": f"{label} {version}{tag}".strip(),
