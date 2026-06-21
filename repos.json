@@ -16,7 +16,8 @@
     {
       "owner": "drakmor",
       "repo": "ShadowMountPlus",
-      "label": "ShadowMount+"
+      "label": "ShadowMount+",
+      "keep": 3
     },
     {
       "owner": "EchoStretch",
