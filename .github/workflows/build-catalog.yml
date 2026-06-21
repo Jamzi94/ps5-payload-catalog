@@ -1,4 +1,3 @@
-
 name: Build PS5 payload catalog
 
 on:
@@ -39,8 +38,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet -- payloads.json; then
-            git add payloads.json
+          git add payloads.json
+          # --cached compare l'index au HEAD : detecte aussi un fichier tout neuf
+          if ! git diff --cached --quiet; then
             git commit -m "chore: update payloads.json ($(date -u +%Y-%m-%dT%H:%MZ))"
             git push
           else
