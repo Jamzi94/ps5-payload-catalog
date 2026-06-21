@@ -1,0 +1,37 @@
+{
+  "catalog_name": "Mon catalogue PS5",
+  "asset_extensions": [".elf", ".bin"],
+  "compute_checksum": false,
+  "repos": [
+    {
+      "owner": "pegasus-ps5",
+      "repo": "pegasus-dl",
+      "label": "Pegasus DL"
+    },
+    {
+      "owner": "juma-sayeh",
+      "repo": "PS5-Game-Compressor",
+      "label": "PS5 Game Compressor"
+    },
+    {
+      "owner": "drakmor",
+      "repo": "ShadowMountPlus",
+      "label": "ShadowMount+"
+    },
+    {
+      "owner": "EchoStretch",
+      "repo": "kstuff",
+      "label": "kstuff"
+    },
+    {
+      "owner": "EchoStretch",
+      "repo": "kstuff-lite",
+      "label": "kstuff-lite"
+    },
+    {
+      "owner": "itsPLK",
+      "repo": "ps5-payload-manager",
+      "label": "PS5 Payload Manager"
+    }
+  ]
+}
