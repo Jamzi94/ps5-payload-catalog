@@ -3,58 +3,58 @@
   "payloads": [
     {
       "name": "Pegasus DL v1.6.0",
-      "filename": "pegasus_dl.elf",
+      "filename": "Pegasus-DL_v1.6.0.elf",
       "url": "https://github.com/pegasus-ps5/pegasus-dl/releases/download/v1.6.0/pegasus_dl.elf",
-      "description": "Pegasus DL - source: github.com/pegasus-ps5/pegasus-dl",
+      "description": "Publie le 21/06/2026 - Pegasus DL - github.com/pegasus-ps5/pegasus-dl",
       "version": "v1.6.0"
     },
     {
       "name": "PS5 Game Compressor v1.0.3",
-      "filename": "game-compressor.elf",
+      "filename": "PS5-Game-Compressor_v1.0.3.elf",
       "url": "https://github.com/juma-sayeh/PS5-Game-Compressor/releases/download/v1.0.3/game-compressor.elf",
-      "description": "PS5 Game Compressor - source: github.com/juma-sayeh/PS5-Game-Compressor",
+      "description": "Publie le 20/06/2026 - PS5 Game Compressor - github.com/juma-sayeh/PS5-Game-Compressor",
       "version": "v1.0.3"
     },
     {
       "name": "ShadowMount+ 1.6test15-fix2",
-      "filename": "shadowmountplus_1.6test15-fix2.elf",
+      "filename": "ShadowMount_1.6test15-fix2.elf",
       "url": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.6test15-fix2/shadowmountplus.elf",
-      "description": "ShadowMount+ - source: github.com/drakmor/ShadowMountPlus",
+      "description": "Publie le 03/06/2026 - ShadowMount+ - github.com/drakmor/ShadowMountPlus",
       "version": "1.6test15-fix2"
     },
     {
       "name": "ShadowMount+ 1.6beta3",
-      "filename": "shadowmountplus_1.6beta3.elf",
+      "filename": "ShadowMount_1.6beta3.elf",
       "url": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.6beta3/shadowmountplus.elf",
-      "description": "ShadowMount+ - source: github.com/drakmor/ShadowMountPlus",
+      "description": "Publie le 28/02/2026 - ShadowMount+ - github.com/drakmor/ShadowMountPlus",
       "version": "1.6beta3"
     },
     {
       "name": "ShadowMount+ 1.6beta2",
-      "filename": "shadowmountplus_1.6beta2.elf",
+      "filename": "ShadowMount_1.6beta2.elf",
       "url": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.6beta2/shadowmountplus.elf",
-      "description": "ShadowMount+ - source: github.com/drakmor/ShadowMountPlus",
+      "description": "Publie le 26/02/2026 - ShadowMount+ - github.com/drakmor/ShadowMountPlus",
       "version": "1.6beta2"
     },
     {
       "name": "kstuff v1.6.7",
-      "filename": "kstuff_kstuff.elf",
+      "filename": "kstuff_v1.6.7.elf",
       "url": "https://github.com/EchoStretch/kstuff/releases/download/v1.6.7/kstuff.elf",
-      "description": "kstuff - source: github.com/EchoStretch/kstuff",
+      "description": "Publie le 04/01/2026 - kstuff - github.com/EchoStretch/kstuff",
       "version": "v1.6.7"
     },
     {
       "name": "kstuff-lite v1.07",
-      "filename": "kstuff-lite_kstuff.elf",
+      "filename": "kstuff-lite_v1.07.elf",
       "url": "https://github.com/EchoStretch/kstuff-lite/releases/download/v1.07/kstuff.elf",
-      "description": "kstuff-lite - source: github.com/EchoStretch/kstuff-lite",
+      "description": "Publie le 08/06/2026 - kstuff-lite - github.com/EchoStretch/kstuff-lite",
       "version": "v1.07"
     },
     {
       "name": "PS5 Payload Manager v0.3.1",
-      "filename": "pldmgr_v0.3.1.elf",
+      "filename": "PS5-Payload-Manager_v0.3.1.elf",
       "url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.3.1/pldmgr_v0.3.1.elf",
-      "description": "PS5 Payload Manager - source: github.com/itsPLK/ps5-payload-manager",
+      "description": "Publie le 06/06/2026 - PS5 Payload Manager - github.com/itsPLK/ps5-payload-manager",
       "version": "v0.3.1"
     }
   ]
