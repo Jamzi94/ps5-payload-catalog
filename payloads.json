@@ -2,11 +2,11 @@
   "name": "Mon catalogue PS5",
   "payloads": [
     {
-      "name": "Pegasus DL v1.6.0",
-      "filename": "Pegasus-DL_v1.6.0.elf",
-      "url": "https://github.com/pegasus-ps5/pegasus-dl/releases/download/v1.6.0/pegasus_dl.elf",
-      "description": "Publie le 21/06/2026 - Pegasus DL - github.com/pegasus-ps5/pegasus-dl",
-      "version": "v1.6.0"
+      "name": "Pegasus DL v1.7.0",
+      "filename": "Pegasus-DL_v1.7.0.elf",
+      "url": "https://github.com/pegasus-ps5/pegasus-dl/releases/download/v1.7.0/pegasus_dl.elf",
+      "description": "Publie le 24/06/2026 - Pegasus DL - github.com/pegasus-ps5/pegasus-dl",
+      "version": "v1.7.0"
     },
     {
       "name": "PS5 Game Compressor v1.0.3",
