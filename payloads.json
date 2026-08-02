@@ -51,11 +51,11 @@
       "version": "v1.09"
     },
     {
-      "name": "PS5 Payload Manager v0.5.0",
-      "filename": "PS5-Payload-Manager_v0.5.0.elf",
-      "url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.5.0/pldmgr_v0.5.0.elf",
-      "description": "Publie le 21/07/2026 - PS5 Payload Manager - github.com/itsPLK/ps5-payload-manager",
-      "version": "v0.5.0"
+      "name": "PS5 Payload Manager v0.5.1",
+      "filename": "PS5-Payload-Manager_v0.5.1.elf",
+      "url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.5.1/pldmgr_v0.5.1.elf",
+      "description": "Publie le 02/08/2026 - PS5 Payload Manager - github.com/itsPLK/ps5-payload-manager",
+      "version": "v0.5.1"
     }
   ]
 }
