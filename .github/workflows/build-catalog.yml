@@ -3,9 +3,9 @@ name: Build PS5 payload catalog
 on:
   # Lance manuellement depuis l'onglet Actions
   workflow_dispatch:
-  # Auto-update : toutes les 6 heures
+  # Auto-update : tous les 2 jours
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 0 */2 * *"
   # Reconstruit aussi quand tu modifies la config ou le script
   push:
     branches: [main]
