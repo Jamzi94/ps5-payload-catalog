@@ -9,6 +9,13 @@
       "version": "v1.0.4"
     },
     {
+      "name": "ShadowMount+ 1.7beta10",
+      "filename": "ShadowMount_1.7beta10.elf",
+      "url": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7beta10/shadowmountplus.elf",
+      "description": "Publie le 28/10/2026 - ShadowMount+ - github.com/drakmor/ShadowMountPlus",
+      "version": "1.7beta10"
+    },
+    {
       "name": "ShadowMount+ 1.7beta9",
       "filename": "ShadowMount_1.7beta9.elf",
       "url": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7beta9/shadowmountplus.elf",
@@ -21,13 +28,6 @@
       "url": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7beta8/shadowmountplus.elf",
       "description": "Publie le 26/10/2026 - ShadowMount+ (pre-release) - github.com/drakmor/ShadowMountPlus",
       "version": "1.7beta8"
-    },
-    {
-      "name": "ShadowMount+ 1.7beta7",
-      "filename": "ShadowMount_1.7beta7.elf",
-      "url": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7beta7/shadowmountplus.elf",
-      "description": "Publie le 21/10/2026 - ShadowMount+ - github.com/drakmor/ShadowMountPlus",
-      "version": "1.7beta7"
     },
     {
       "name": "kstuff v1.6.7",
